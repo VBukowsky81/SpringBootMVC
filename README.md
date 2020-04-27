@@ -1,5 +1,5 @@
 # SpringBootMVC
-Spring Boot MVC, Thymeleaf
+Spring Boot MVC, Thymeleaf, H2
 
 Good day, everyone.
 
