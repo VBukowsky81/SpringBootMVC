@@ -11,7 +11,7 @@ It all starts with a user request coming in from HTTP servers that we set up - T
 
 User request objects then get parsed to extract particular data. The request then gets routed to a proper method, through what is called a Controller class or classes. The method to run could be based on the original request URL address, the HTTP method used, specific parameters, and many other conditions. 
 
-So in the end, real MVC processing is based on URL resource end-point mappings. How you set these end-points is up to you.
+Mostly, actual MVC processing is based on URL resource end-point mappings. How you set these end-points is up to you.
 
 I can go on and on about MVC, and how amazing it is. But I will expand on this later.
 
