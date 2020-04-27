@@ -9,7 +9,7 @@ What is MVC? Well, first and foremost, it is an architectural design pattern, co
 
 It all starts with a user request coming in from HTTP servers that we set up - Tomcat, Glassfish, whatnot. These servers handle the HTTP side of things - IP addressing, packets, routing, all that networking stuff. And then handle us a user request object. These web servers also give us Java run-time environment, to run our Servlets in.
 
-User request objects then get parsed to extract particular data. The request then gets routed to a proper method, through what is called a Controller class or classes. The method to run could be based on the original request URL address, the HTTP method used, specific parameters, and many other conditions. 
+User request objects then get parsed to extract particular data. The request then gets routed to a proper method, through what is called a Controller class or classes. The method to run could be based on the original request URL address, particular HTTP method used, specific parameters, and many other conditions. 
 
 Mostly, actual MVC processing is based on URL resource end-point mappings. How you setup these end-points is up to you.
 
