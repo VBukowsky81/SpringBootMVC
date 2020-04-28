@@ -13,7 +13,7 @@ User request objects then get parsed to extract particular data. The request the
 
 Mostly, actual MVC processing is based on URL resource end-point mappings. How you set up these end-points is up to you.
 
-This project uses Thymeleaf as template engine, which is probably the best engine currently available. Template engines are simply view resolution systems. H2 - fantastic in-memory database.
+This project uses Thymeleaf as template engine, which is probably the best engine currently available, and is much better than JSP(static and dynamic templates, ability to run anywhere, great syntax, etc). Template engines are simply view resolution systems. H2 - fantastic in-memory database.
 
 I can go on and on about MVC, and how amazing it is. But I will expand on this later.
 
